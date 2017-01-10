@@ -1,6 +1,6 @@
 
 
-/*Главное меню
+/*Главное меню декстоп
 =============================*/
 
 .section_view-dd{
@@ -25,10 +25,14 @@
 	text-decoration:underline;
 }
 
-/* Меню для мобильных устр-в
-=============================*/
+/* Контент шапки для мобильного
+================================*/
 
-/* Мобильное меню
+.section_view_mobile-dd{
+	background:#00B2C7;
+}
+
+/* Меню для мобильных устр-в
 =============================*/
 
 #check_1{
@@ -49,11 +53,11 @@
 
 #check_1:checked ~ .anz-perspective{
 	transition: all 1s ease-in-out;
-	right: 0px;
+	left: 0px;
 }
 #check_1 ~ .anz-perspective{
 	transition: all 1s ease-in-out;
-	right: -330px;
+	left: -330px;
 }
 #check_1:checked ~ .anz-perspective .menu-list-pressed{
 	transition: all 1s ease-in-out;
@@ -70,8 +74,9 @@
 // фон меню
 .anz-menu{
 	text-align: right;
-	height:48px;
-	background: rgba(#2B66AA, 0.9);
+	height:29px;
+	background: rgba(#fff, 1);
+	outline:1px solid red;
 }
 
 // стили для фона плашки
@@ -79,7 +84,7 @@
 	border-radius:10px;
 	width: 228px;
 	height: 100%;
-	padding: 30px;
+	padding: 10px;
 	line-height: 40px;
 	background: rgba(#2B66AA, 0.9);
 	text-align: left;
@@ -88,34 +93,36 @@
 // Тут задаем иконку для вывода плашки (Задается в разметке через img)
 .anz-menu-ch{
 	display: inline-block;
-	background: red;
-	width: 41px;
-	height: 43px;
+	// background: red;
+	width: 24px;
+	height: 18px;
 	font-size: 30px;
 	position: fixed;
-	top: 0px;
-	left:0px;
+	top: -5px;
+	left:50%;
+	margin-left: -12px;
 	z-index: 9999;
 }
 .anz-menu-ch:hover{
 	opacity: 0.3;
 }
-.main-menu{
+.main-menu-dd{
 	text-align: left;
 	position:relative;
 }
 
 // Тут задаем иконку для закрытия плашки (Задается в разметке через img)
 .anz-menu-ch1{
-	background: red;
+	// background: red;
 	display: inline-block;
-	width: 41px;
-	height: 43px;
+	width: 23px;
+	height: 35px;
 	font-size: 30px;
 	position: fixed;
 	top: 0px;
-	right:-8px;
+	right: 7px;
 	cursor: pointer;
+	z-index:9999;
 }
 .anz-menu-ch1:hover{
 	opacity: 0.8;

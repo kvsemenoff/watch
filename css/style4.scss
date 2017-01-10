@@ -1,17 +1,141 @@
 
 
 /*Главное меню
-================*/
+=============================*/
 
-.section-dd{
+.section_view-dd{
 	width: 100%;
 	background: #0eb0c5;
 }
+.section_padding-dd{
+	padding: 20px 0px 15px;
+}
+.main-menu_position{
+	text-align: center;
+	width: 100%;
+}
+.main-menu__item_view{
+	display: inline-block;
+	padding-left: 32px;
+}
+.main-menu__link_view{
+	font-family: "RobotoRegular";
+	color:#fff;
+	font-size:17px;
+	text-decoration:underline;
+}
 
+/* Меню для мобильных устр-в
+=============================*/
 
+/* Мобильное меню
+=============================*/
 
+#check_1{
+	display: none;
+	position: fixed;
+	top: 25px;
+	right: 25px;
+	font-size: 50px; 
+}
+.anz-perspective{
+	position: fixed;
+	top: 0px;
+	height: 100%;
+	-webkit-perspective: 500px; 
+	perspective: 500px;
+	z-index: 150;
+}
 
+#check_1:checked ~ .anz-perspective{
+	transition: all 1s ease-in-out;
+	right: 0px;
+}
+#check_1 ~ .anz-perspective{
+	transition: all 1s ease-in-out;
+	right: -330px;
+}
+#check_1:checked ~ .anz-perspective .menu-list-pressed{
+	transition: all 1s ease-in-out;
+	transform: rotateY(0deg);
+}
+#check_1 ~ .anz-perspective .menu-list-pressed{
+	transition: all 1s ease-in-out;
+	transform: rotateY(90deg);
+}
+.anz-menu-ch{
+	cursor: pointer;    
+}
 
+// фон меню
+.anz-menu{
+	text-align: right;
+	height:48px;
+	background: rgba(#2B66AA, 0.9);
+}
+
+// стили для фона плашки
+.menu-list-pressed{
+	border-radius:10px;
+	width: 228px;
+	height: 100%;
+	padding: 30px;
+	line-height: 40px;
+	background: rgba(#2B66AA, 0.9);
+	text-align: left;
+}
+
+// Тут задаем иконку для вывода плашки (Задается в разметке через img)
+.anz-menu-ch{
+	display: inline-block;
+	background: red;
+	width: 41px;
+	height: 43px;
+	font-size: 30px;
+	position: fixed;
+	top: 0px;
+	left:0px;
+	z-index: 9999;
+}
+.anz-menu-ch:hover{
+	opacity: 0.3;
+}
+.main-menu{
+	text-align: left;
+	position:relative;
+}
+
+// Тут задаем иконку для закрытия плашки (Задается в разметке через img)
+.anz-menu-ch1{
+	background: red;
+	display: inline-block;
+	width: 41px;
+	height: 43px;
+	font-size: 30px;
+	position: fixed;
+	top: 0px;
+	right:-8px;
+	cursor: pointer;
+}
+.anz-menu-ch1:hover{
+	opacity: 0.8;
+}
+
+/* Стили при фиксации меню
+=============================*/
+
+.header-no-fixed{
+	display:none;
+	position:none;
+}
+// Тут можно задать изменение цвета фона при скроле
+.header-fixed{
+	position:fixed;
+	top:0;
+	z-index:999;
+	// background: rgba(#2B66AA, 0.9);
+	width:100%;
+}
 
 
 
@@ -43,7 +167,7 @@
     //outline: 5px solid red;
 }
 .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
-  
+
 }
 .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
 }

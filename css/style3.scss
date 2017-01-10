@@ -6,9 +6,27 @@
 @import "fonts.css";
 
 
-.dc-header1 {
-	font-family: "Roboto Bold";	
+.section_padding-dc {
+	padding-top: 47px;
 }
+
+.dc-limit {
+	font-family: "RobotoBold";
+	color: #04545e;
+}
+
+.dc-text {
+	font-family: "RobotoBold";
+}
+
+.dc-image {
+	display: block;
+}
+
+.main {
+    height: 1534px;
+}
+
 
 @media only screen and (min-width : 320px) {
 }
@@ -20,13 +38,18 @@
 }
 
 @media only screen and (min-width : 992px) {
-	.dc-header1 {
-		font-family: "Roboto Bold";
-	}
-
 	.section_padding-dc {
 		padding-top: 47px;
-	}	
+	}
+
+	.dc-limit {
+		font-family: "RobotoBold";
+		color: #04545e;
+	}
+
+	.dc-text {
+		font-family: "RobotoBold";
+	}
 }
 
 @media only screen and (min-width : 1248px) {

@@ -34,6 +34,7 @@
 
 	<?php require_once('includes/header.php'); ?>
 	<?php require_once('includes/clocks.php'); ?>
+	<?php require_once('includes/status_clocks.php'); ?>
 	<?php require_once('includes/footer.php'); ?>
 
 	

@@ -1,9 +1,22 @@
-@import "reset.css";
-@import "style.css";
-@import "style2.css";
-@import "style3.css";
-@import "style4.css";
-@import "fonts.css";
+.footer_padding{
+	padding: 25px 0;
+
+}
+.footer_view{
+	background:#323232;
+	color:#fff;
+	font-family:"RobotoRegular";
+	}
+.footer__right{
+	padding-top:10px;
+	a{
+		color:#fff;
+	}
+
+}
+.footer__left_position, .footer__right_position{
+	text-align:center;
+}
 
 @media only screen and (min-width : 320px) {
 }
@@ -15,6 +28,14 @@
 }
 
 @media only screen and (min-width : 992px) {
+
+.footer__left_position{
+	text-align:left;
+}
+
+.footer__right_position{
+text-align: right;
+}
 }
 
 @media only screen and (min-width : 1248px) {

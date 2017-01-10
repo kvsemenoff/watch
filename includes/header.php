@@ -14,17 +14,6 @@
 	</div> <!-- container -->
 </section> <!-- section_view-dd -->
 
-<section class="section section_view_mobile-dd">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12">
-				<div class="dd-section_view_mobile-img-dd">
-					<img src="img/watch.png" alt="">
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
 
 <div class="anz-menu hidden-lg hidden-md">
 	<input type="checkbox" id="check_1" class=""/>
@@ -41,3 +30,42 @@
 		</div>
 	</div>
 </div>
+<section class="section section_view_mobile-dd">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="dd-section_view_mobile-img-dd">
+					<img src="img/watch.png" alt="">
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+
+<script>
+	function navigation_scroll(){
+		var offset = $('.anz-menu').height() || $(window).height() || 150;
+		var scroll = $(document).scrollTop();
+		if (scroll < 1) {
+			$('.anz-menu')
+			.toggleClass('header-no-fixed', false)
+			.toggleClass('header-fixed', false);
+		}     
+		else if (scroll >= offset) {
+			$('.anz-menu,')
+			.toggleClass('header-no-fixed', false)
+			.toggleClass('header-fixed', true);
+
+		}
+		else if (scroll < offset - 1) {
+			$('.anz-menu')
+			.toggleClass('header-fixed', true)
+			.toggleClass('header-no-fixed', false);
+		}
+	}
+	$(document).scroll(function(){
+		navigation_scroll();
+	});
+</script>

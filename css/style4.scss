@@ -1,6 +1,6 @@
 
 
-/*Главное меню декстоп
+/*Главное меню для декстопа
 =============================*/
 
 .section_view-dd{
@@ -31,7 +31,9 @@
 .section_view_mobile-dd{
 	background:#00B2C7;
 }
-
+.dd-section_view_mobile-img-dd{
+	text-align:center;
+}
 /* Меню для мобильных устр-в
 =============================*/
 
@@ -76,7 +78,6 @@
 	text-align: right;
 	height:29px;
 	background: rgba(#fff, 1);
-	outline:1px solid red;
 }
 
 // стили для фона плашки
@@ -140,18 +141,10 @@
 	position:fixed;
 	top:0;
 	z-index:999;
+	border-bottom:1px solid #00B2C7;
 	// background: rgba(#2B66AA, 0.9);
 	width:100%;
 }
-
-
-
-
-
-
-
-
-
 
 
 

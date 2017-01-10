@@ -6,7 +6,6 @@
 	<title>Главная</title>
 
 	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid-3.3.1.min.css" />
-	<link href="//netdna.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.css" rel="stylesheet">
 	<link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css" />
 	<link rel="stylesheet" href="libs/owl.carousel/assets/owl.carousel.css" />
 	<link rel="stylesheet" href="libs/wow/animate.css">
@@ -33,14 +32,9 @@
 	<script src="js/common.js"></script>
 
 	<?php require_once('includes/header.php'); ?>
-<<<<<<< HEAD
-	
     <?php require_once('includes/what_good.php'); ?>
-
-=======
 	<?php require_once('includes/clocks.php'); ?>
 	<?php require_once('includes/status_clocks.php'); ?>
->>>>>>> 2262644e52776aa841a8dd33e113ff4f437c66f2
 	<?php require_once('includes/footer.php'); ?>
 
 	

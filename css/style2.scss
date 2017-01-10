@@ -6,7 +6,7 @@
 	background:#323232;
 	color:#fff;
 	font-family:"RobotoRegular";
-	}
+}
 .footer__right{
 	padding-top:10px;
 	a{
@@ -29,13 +29,17 @@
 
 @media only screen and (min-width : 992px) {
 
-.footer__left_position{
-	text-align:left;
-}
+	.footer__left_position{
+		text-align:left;
+		font-size:14px;
+		font-weight: 400;
+	}
 
-.footer__right_position{
-text-align: right;
-}
+	.footer__right_position{
+		text-align: right;
+		font-size:14px;
+		font-weight: 400;
+	}
 }
 
 @media only screen and (min-width : 1248px) {

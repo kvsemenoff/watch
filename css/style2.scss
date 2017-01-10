@@ -1,9 +1,11 @@
-@import "reset.css";
-@import "style.css";
-@import "style2.css";
-@import "style3.css";
-@import "style4.css";
-@import "fonts.css";
+.footer_padding{
+	padding: 25px 0;
+
+}
+.footer_view{
+	background:#323232;
+	color:#fff;
+	}
 
 @media only screen and (min-width : 320px) {
 }
@@ -15,6 +17,7 @@
 }
 
 @media only screen and (min-width : 992px) {
+
 }
 
 @media only screen and (min-width : 1248px) {

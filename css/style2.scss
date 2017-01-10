@@ -18,6 +18,33 @@
 	text-align:center;
 }
 
+.section_padding-db{
+		padding:25px 0;
+	}
+.section_view-db{
+	background: url("../img/db-clock_status.jpg") no-repeat top center;
+	background-size: cover;
+}
+.db-status_view{
+	background:rgba(#fff, 0.5);
+	border-radius:20px;	
+	text-align: center;
+	color:#000;
+}
+.db-status_padding{
+	padding:5px;
+}
+.db-status__title_view{
+	font-family:"RobotoBold";
+	font-size:18px;
+
+}
+.db-status__text_view{
+	padding-top:15px;
+	font-size:14px;
+	font-family:"RobotoRegular";
+}
+
 @media only screen and (min-width : 320px) {
 }
 
@@ -40,7 +67,31 @@
 		font-size:14px;
 		font-weight: 400;
 	}
+	
+	.section_padding-db{
+		padding:120px 0;
+	}
+	.db-status_view{
+		text-align: left;
+		width:602px;
+	}
+
+	.db-status_padding{
+		padding:38px;
+	}
+	.db-status__title_view{
+	
+	font-size:24px;
+
 }
+.db-status__text_view{
+	font-size:18px;
+}
+
+
+}
+
+
 
 @media only screen and (min-width : 1248px) {
 }
@@ -49,7 +100,7 @@
     //outline: 5px solid red;
 }
 .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
-  
+
 }
 .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
 }

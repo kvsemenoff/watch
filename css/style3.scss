@@ -1,15 +1,35 @@
-@import "reset.css";
-@import "style.css";
-@import "style2.css";
-@import "style3.css";
-@import "style4.css";
-@import "fonts.css";
 
 
-.dc-header1 {
-	font-family: "Roboto Bold";	
+.section_padding-dc {
+	padding-top: 47px;
 }
 
+.dc-limit {
+	font-family: "RobotoBold";
+	color: #04545e;
+}
+
+.dc-text {
+	font-family: "RobotoBold";
+}
+
+.dc-image {
+	display: block;
+}
+
+.title-with-text__title_view{
+	color: #04545e;
+	font-size: 24px;
+	font-family: "RobotoBold";
+	display: block;
+	margin-bottom: 40px;
+}
+
+.title-with-tex__p_view{
+	font-family: "RobotoRegular";		
+	font-size: 24px;
+	color: #3f3f3f;
+}
 @media only screen and (min-width : 320px) {
 }
 
@@ -20,13 +40,18 @@
 }
 
 @media only screen and (min-width : 992px) {
-	.dc-header1 {
-		font-family: "Roboto Bold";
-	}
-
 	.section_padding-dc {
 		padding-top: 47px;
-	}	
+	}
+
+	.dc-limit {
+		font-family: "RobotoBold";
+		color: #04545e;
+	}
+
+	.dc-text {
+		font-family: "RobotoBold";
+	}
 }
 
 @media only screen and (min-width : 1248px) {

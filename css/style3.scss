@@ -1,9 +1,3 @@
-@import "reset.css";
-@import "style.css";
-@import "style2.css";
-@import "style3.css";
-@import "style4.css";
-@import "fonts.css";
 
 
 .section_padding-dc {
@@ -23,11 +17,19 @@
 	display: block;
 }
 
-.main {
-    height: 1534px;
+.title-with-text__title_view{
+	color: #04545e;
+	font-size: 24px;
+	font-family: "RobotoBold";
+	display: block;
+	margin-bottom: 40px;
 }
 
-
+.title-with-tex__p_view{
+	font-family: "RobotoRegular";		
+	font-size: 24px;
+	color: #3f3f3f;
+}
 @media only screen and (min-width : 320px) {
 }
 

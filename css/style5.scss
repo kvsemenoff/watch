@@ -1,3 +1,127 @@
+.clear{
+	clear:both;
+}
+
+/*CLOCKS*/
+
+.section_view-df{
+	background-color: #f9f9f9;
+}
+
+.df-caption_view{
+	text-align: center;
+}
+
+.df-clock_view-align{
+	text-align: center;
+	margin: 0 auto;
+}
+.df-clock__left_view{
+	
+}
+.df-clock__right_view{
+	text-align: center;
+}
+
+.df-clock__cap_view{
+	color:#383838;
+	font-size: 18px;
+	font-family: "RobotoBold";
+}
+.df-clock__old-price_view{
+	font-size: 14px;
+	color:#717171;
+	font-family: "RobotoRegular";
+	text-decoration: line-through;
+	display: block;
+}
+.df-clock__new-price_view{
+	font-size: 18px;
+	color:#0b93a5;
+	font-family: "RobotoBold";	
+	display: block;
+}
+.df-clock__characteristic_view{
+
+}
+.df-clock__char1_view{
+	background-image: url("../img/df-char1.png");
+	background-repeat: no-repeat;
+	background-position: center left;
+	width: 15px;
+	height: 17px;
+	display: inline-block;
+}
+.df-clock__char2_view, .df-clock__char3_view{
+	font-size: 16px;
+	color:#5d5d5d;
+	font-family: "RobotoRegular";
+	display: inline-block;
+	background-image: url("../img/df-char2.png");
+	background-repeat: no-repeat;
+	background-position: center left;
+	padding-left: 20px;
+}
+.df-clock__char3_view{
+	background-image: url("../img/df-char3.png");
+	background-repeat: no-repeat;
+	background-position: center left;
+}
+
+.characteristics_view{
+	text-align: center;
+	outline: 1px solid green;
+}
+.characteristics__item_view{
+	outline: 1px solid red;
+	display: table;
+	text-align: left;
+	margin: 0 auto;
+}
+.characteristics__left_view, .characteristics__right_view{
+	display: table-cell;
+	font-size: 14px;
+	color:#5d5d5d;
+	font-family: "RobotoRegular";
+	// text-align: left;
+	// width: 50%;
+	line-height: 22px;
+	width: 145px;	
+	outline: 1px solid black;
+	
+}
+.characteristics__right_view{
+	color:#2e2e2e;
+	width: 130px;	
+
+}
+.df-clock__link_view{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media only screen and (min-width : 320px) {

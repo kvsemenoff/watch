@@ -16,13 +16,13 @@
 	padding: 25px 0px;
 }
 h2{
-	font-family: "Roboto-Bold";
+	font-family: "RobotoBold";
 	color:#04545e;
 	font-size:30px;
 	text-transform:uppercase;
 }
 input[type="text"]{
-	font-family: "Roboto-Regular";
+	font-family: "RobotoRegular";
 	width: 100%;
 	font-size: 18px;
 	color: #868686;
@@ -32,6 +32,7 @@ input[type="text"]{
 	border-radius: 20px;
 }
 input[type="submit"]{
+	font-family: "RobotoRegular";
 	width: 214px;
 	height: 45px;
 	background-color: #ff0900;
@@ -39,9 +40,19 @@ input[type="submit"]{
 	box-shadow: 7.5px 13px 29px rgba(0, 0, 2, 0.34);
 	font-size: 18px;
 	color:#fff;
-	
 }
-
+.button-1{
+	font-family: "RobotoRegular";
+	font-size: 18px;
+	width: 222px;
+	height: 52px;
+	background-color: #ff0900;
+	border-radius: 20px;
+	box-shadow: 5.5px 9.5px 29px rgba(0, 0, 2, 0.36);
+	text-transform: uppercase;
+	color:#fff;
+	display: inline-block;
+}
 
 
 

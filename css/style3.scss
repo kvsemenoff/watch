@@ -16,7 +16,7 @@
 	margin-bottom: 40px;		
 }
 
-.title-with-tex__p_view{
+.title-with-tex__p_view {
 	font-family: "RobotoRegular";		
 	font-size: 24px;
 	color: #3f3f3f;	
@@ -27,6 +27,11 @@
     float:right;
 }
 
+.title-with-text__view2 {
+    width: 30%;
+    float:left;
+}
+
 .image-view {
     width: 50%;
     float:left;    
@@ -34,6 +39,13 @@
     position:relative;
     top: -100px;
     left: 300px;
+}
+
+.image-view2 {
+    width: 50%;
+    float:right;
+    z-index: 1;
+    position:relative;
 }
 
 .blue-view {

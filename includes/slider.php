@@ -58,9 +58,9 @@
 </section>	
 <script>
 
-	var owl = $("#slider-df");
+	var owl2 = $("#slider-df");
 
-    owl.owlCarousel({
+    owl2.owlCarousel({
 
         loop:true,//Зацикливаем слайдер
         nav:true, //Навигация включена

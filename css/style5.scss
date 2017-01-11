@@ -195,6 +195,7 @@
 .df-slider__image_view{
 	display: inline-block;	
 }
+#slider-df{
 .owl-dots{
 	display: none !important;
 	background-color: #0eb0c5;
@@ -218,7 +219,7 @@
 	display: inline-block;
 }
 
-
+}
 
 
 
@@ -236,10 +237,12 @@
 @media only screen and (min-width : 992px) {
 	/*slider*/
 	.df-slider_view{		
-		padding: 37px 47px 31px 47px;
-	}
-	.owl-dots{
-		display: block !important;
+			padding: 37px 47px 31px 47px;
+		}
+	#slider-df{		
+		.owl-dots{
+			display: block !important;
+		}
 	}
 	/*guarantee*/
 

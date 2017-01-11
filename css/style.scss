@@ -16,6 +16,8 @@
 	padding: 25px 0px;
 }
 h2{
+	display:inline-block;
+	margin-bottom: 25px;
 	font-family: "RobotoBold";
 	color:#04545e;
 	font-size:30px;
@@ -43,7 +45,7 @@ input[type="submit"]{
 }
 .button-1{
 	text-align:center;
-	font-family: "RobotoRegular";
+	font-family: "RobotoBold";
 	font-size: 18px;
 	width: 222px;
 	height: 52px;
@@ -53,6 +55,7 @@ input[type="submit"]{
 	text-transform: uppercase;
 	color:#fff;
 	display: inline-block;
+	padding-top: 12px;
 }
 
 
@@ -67,6 +70,9 @@ input[type="submit"]{
 }
 
 @media only screen and (min-width : 992px) {
+	h2{
+		margin-bottom: 53px;
+	}
 	.section_padding{
 		padding: 50px 0px;
 	}

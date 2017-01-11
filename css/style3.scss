@@ -4,10 +4,6 @@
 	padding-top: 47px;
 }
 
-.dc-image {
-	
-}
-
 .title-with-text__title_view{
 	color: #04545e;
 	font-size: 24px;
@@ -18,34 +14,33 @@
 
 .title-with-tex__p_view {
 	font-family: "RobotoRegular";		
-	font-size: 24px;
-	color: #3f3f3f;	
+	font-size: 18px;
+	color: #3f3f3f;
 }
 
-.title-with-text__view {
-    width: 30%;
-    float:right;
-}
-
-.title-with-text__view2 {
-    width: 30%;
-    float:left;
-}
-
-.image-view {
-    width: 50%;
-    float:left;    
+.dc-image {
+    width: 300px;
     z-index: 20;
     position:relative;
-    top: -200px;
+    top: -100px;
     left: 300px;
 }
 
-.image-view2 {
-    width: 50%;
-    float:right;
-    z-index: 1;
+.dc-image2 {
+    width: 250px;
+    z-index: 20;
     position:relative;
+    top: -100px;
+    left: 50px;
+    padding-top: 50px;
+}
+
+.dc-image3 {
+    width: 300px;
+    z-index: 20;
+    position:relative;
+    top: -20px;
+    left: 300px;
 }
 
 .blue-view {
@@ -57,17 +52,37 @@
     top: 100px;
 }
 
-
-.image-view3 {
-    z-index: 20;
-    position: relative;
+.blue-view2 {
+    width: 500px;
+    height: 200px;
+    z-index: 10;
+    position:relative;
+    top: 50px;
 }
 
-.image-view4 {
-    z-index: 10;
-    position: relative;
-    top: -400px;
-    left: 700px;	
+.title-with-text__view {
+	position: relative;
+	width: 75%;
+}
+
+.title-with-text__view2 {
+	position: relative;
+	width: 75%;
+}
+
+.dc-left-view {
+	float: left;
+	width: 50%;
+}
+
+.dc-left-view2 {
+	float: left;
+	width: 50%;
+}
+
+.dc-right-view {
+	float: left;
+	width: 50%;	
 }
 
 

@@ -81,9 +81,9 @@
 .slider-db__img
 {
 border-radius: 18px;
-box-shadow: 5px 8.7px 27px rgba(0, 0, 2, 0.46);
 box-sizing:border-box;
 overflow: hidden;
+box-shadow: 5px 8.7px 27px rgba(0, 0, 2, 0.46);
 }
 .slider-db__text_padding{
 	padding-top: 20px;
@@ -107,6 +107,7 @@ overflow: hidden;
 }
 
 @media only screen and (min-width : 992px) {
+
 
 	.footer__left_position{
 		text-align:left;
@@ -140,6 +141,8 @@ overflow: hidden;
 	font-size:18px;
 }
 
+
+
 .slider-db__imgbox{
 	width:302px;
 	height:305px;
@@ -148,6 +151,12 @@ overflow: hidden;
 .text-with-traengle_view{
 	padding:18px 24px;	
 	width: 639px;
+
+}
+.table-left-db{
+display:table-cell;
+width: 302px;
+height: 305px;
 
 }
 .text-with-traengle_view:before{
@@ -183,20 +192,20 @@ overflow: hidden;
 	display: block;
 	background: url('../img/db-right.png') no-repeat;
 	position: absolute;
-	right: 30px;
+	    right: 30px;
     top: 130px;
 }
 
 .slider-db_table{
 	display: table;
-	padding-left: 60px;
+	padding-left: 73px;
 }
 .slider-db__imgbox_cell{
 	display: table-cell;
 	width:302px;
 	padding-left: 18px;
-	padding-bottom: 8px;
-	padding-right: 8px;
+	padding-bottom: 10px;
+	padding-right: 10px;
 		
 }
 .slider-db__text_cell{

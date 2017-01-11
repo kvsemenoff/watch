@@ -1,5 +1,6 @@
 <section class="section section_padding section_view-df">
 	<div class="container df-container">
+	<div class="clear"></div>	
 		<h2 class="df-caption_view">Выбери свои часы Казахстан</h2>
 		<div class="df-clock df-clock_view-align">
 			<div class="df-clock__left df-clock__left_view">

@@ -38,9 +38,10 @@
 	<?php require_once('includes/status_clocks.php'); ?>
 	<?php require_once('includes/certificate.php'); ?>	
 	<?php require_once('includes/testimonials.php'); ?>
+	<?php require_once('includes/guarantee.php'); ?>
 	<?php require_once('includes/footer.php'); ?>
 
-	
+	guarantee
 </body>
 </html>
 

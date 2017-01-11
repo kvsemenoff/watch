@@ -5,7 +5,7 @@
 }
 
 .dc-image {
-	display: block;
+	
 }
 
 .title-with-text__title_view{
@@ -37,7 +37,7 @@
     float:left;    
     z-index: 20;
     position:relative;
-    top: -100px;
+    top: -200px;
     left: 300px;
 }
 
@@ -50,11 +50,11 @@
 
 .blue-view {
     background: #0eb0c5;
-    width: 600px;
+    width: 500px;
     height: 200px;
     z-index: 10;
     position:relative;
-    top: 190px;
+    top: 100px;
 }
 
 
@@ -70,8 +70,15 @@
     left: 700px;	
 }
 
+
+
 .dc-bg-view {
 	background: url("../img/dc-bg.jpg");
+}
+
+
+.all-pride-view {
+	padding-top: 40px;
 }
 
 @media only screen and (max-width : 792px) {
@@ -101,6 +108,8 @@
 	color: #04545e;
 	font-family: "RobotoRegular";
 	font-size: 18px;
+	padding-top: 0px;
+	margin: 0 auto;
 }
 
 .dc-list-view {
@@ -110,11 +119,9 @@
 	list-style-image: url('../img/dc-list_icon.png');
 	li {
 		float: left;
-		margin: 50px;
+		margin: 20px;
 	}
 }
-
-
 
 form.form-view {
 	width: 270px;
@@ -156,7 +163,11 @@ div.form-view {
     height: 665px;    
 }
 
-
+.all-pride-view	{
+	h2 {
+		padding-bottom: 0px;
+	}
+}
 
 #mask { position:absolute; left:0; top:0;  z-index:9000;  background-color:#000; width: 100%; height: 100%;  display:none; }
 

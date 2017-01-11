@@ -2,8 +2,6 @@
 
     <div class="dc-bg-view">
 	    <center><h2>ВСЯ	ПРОДУКЦИЯ СЕРТИФИЦИРОВАНА</h2></center>
-   
-    
 		<div class="image">	    
 	    	<center>
 		    	<img class="image-view3" src="img/dc-certificate.jpg">

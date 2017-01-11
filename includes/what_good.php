@@ -5,7 +5,7 @@
 
     </div>
 	<div class="image image-view">	    
-		<img class="dc-image" src="img/dc-clock.jpg">
+		<img class="dc-image" src="img/dc-clock.png">
 	</div>
 
 	<div class="title-with-text title-with-text_view">

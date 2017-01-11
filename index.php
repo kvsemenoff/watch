@@ -32,6 +32,7 @@
 	<script src="js/common.js"></script>
 
 	<?php require_once('includes/header.php'); ?>
+	<?php require_once('includes/pride.php'); ?>
     <?php require_once('includes/what_good.php'); ?>
 	<?php require_once('includes/clocks.php'); ?>
 	<?php require_once('includes/status_clocks.php'); ?>

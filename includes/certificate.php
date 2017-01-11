@@ -7,7 +7,7 @@
 		    	<img class="image-view3" src="img/dc-certificate.jpg">
 			</center>
 
-			<img class="image-view4" src="img/dc-clocks.jpg">
+			<img class="image-view4" src="img/dc-clocks.png">
 		</div>
     </div>
 	

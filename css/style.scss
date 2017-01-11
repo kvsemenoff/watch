@@ -16,6 +16,8 @@
 	padding: 25px 0px;
 }
 h2{
+	display:inline-block;
+	margin-bottom: 25px;
 	font-family: "RobotoBold";
 	color:#04545e;
 	font-size:30px;
@@ -68,6 +70,9 @@ input[type="submit"]{
 }
 
 @media only screen and (min-width : 992px) {
+	h2{
+		margin-bottom: 53px;
+	}
 	.section_padding{
 		padding: 50px 0px;
 	}

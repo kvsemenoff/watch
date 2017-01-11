@@ -1,7 +1,6 @@
-<section class="section section_padding">
+<section class="section section_padding df-padding-top">
 	<div class="container df-container">
 		<div class="clear"></div>
-
 		<div class="df-slider df-slider_view">
 			<div id="slider-df">
 				<div class="item">

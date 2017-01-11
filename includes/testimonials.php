@@ -2,7 +2,9 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
+			<div class="center">
 				<h2 class="h2-view h2-view-padding">Отзывы  наших  покупателей</h2>
+			</div>
 				<div class="slider-db slider-db_table">
 					<div class="item">
 						<div class="slider-db__imgbox slider-db__imgbox_padding slider-db__imgbox_cell">

@@ -174,7 +174,7 @@ overflow: hidden;
 	background: url('../img/db-left.png') no-repeat;
 	position: absolute;
 	top: 123px;
-    left: -72px;
+    left: 30px;
 }
 
 .db-right{
@@ -183,12 +183,13 @@ overflow: hidden;
 	display: block;
 	background: url('../img/db-right.png') no-repeat;
 	position: absolute;
-	    right: 63px;
-    top: 126px;
+	right: 30px;
+    top: 130px;
 }
 
 .slider-db_table{
 	display: table;
+	padding-left: 60px;
 }
 .slider-db__imgbox_cell{
 	display: table-cell;

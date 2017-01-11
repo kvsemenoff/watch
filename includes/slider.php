@@ -1,7 +1,6 @@
-<section class="section section_padding">
+<section class="section section_padding df-padding-top">
 	<div class="container df-container">
 		<div class="clear"></div>
-
 		<div class="df-slider df-slider_view">
 			<div id="slider-df">
 				<div class="item">
@@ -49,41 +48,7 @@
 						<img src="img/df-sl-3.png" alt="" class="img-responsive">
 					</div>
 				</div>				
-			</div>	
-			
-				
+			</div>				
 		</div>
-
 	</div>
 </section>	
-<script>
-
-	var owl2 = $("#slider-df");
-
-    owl2.owlCarousel({
-
-        loop:true,//Зацикливаем слайдер
-        nav:true, //Навигация включена
-        autoplay:false,//автозапуск
-        smartSpeed:1000,//Время движения
-        margin:0,    
-        navText:['<span class="df-left"></span>','<span class="df-right"></span>'],
-        responsive:{
-            0:{
-              items:1
-          },
-          768:{
-          	items:2
-          },       
-          1000:{
-              items:3
-          },
-          1248:{
-              items:3
-          }
-      }
-
-  });
-
-	 
-</script>	

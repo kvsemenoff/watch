@@ -130,6 +130,7 @@
 	width: 175px;
 	height: 45px;
 	font-family: "RobotoBold";	
+	transition: 0.5s;
 }
 
 
@@ -177,13 +178,19 @@
 	color:#fff;
 	border-radius: 20px;
 	background: #ff0900;
-	font-family: "RobotoBold";	
+	font-family: "RobotoBold";
+	transition: 0.5s;	
+}
+.df-guarantee__link_view:hover, .df-clock__link_view:hover{
+	transition: 0.5s;
+	background: darken(#ff0900,10%);
 }
 
 
-
 /*slider*/
-
+.df-padding-top{
+	padding-top: 40px !important;
+}
 .df-slider_view{
 	position: relative;
 	padding: 15px 0px;
@@ -196,29 +203,28 @@
 	display: inline-block;	
 }
 #slider-df{
-.owl-dots{
-	display: none !important;
-	background-color: #0eb0c5;
-	border-radius: 20px;
-	width: auto;	
-	height: 22px;
-	padding: 0 3px;
-	position: absolute;
-	bottom: -45px;
-	left: 50%;
-	transform:translate(-50%, 0);
-}
- .active{
-	background-image: url("../img/df-slider.png");
-	background-repeat: no-repeat;
-	background-position: center center;	
-}
-.owl-dot{
-	width: 49px;
-	height: 21px;
-	display: inline-block;
-}
-
+	.owl-dots{
+		display: none !important;
+		background-color: #0eb0c5;
+		border-radius: 20px;
+		width: auto;	
+		height: 22px;
+		padding: 0 3px;
+		position: absolute;
+		bottom: -45px;
+		left: 50%;
+		transform:translate(-50%, 0);
+	}
+	 .active{
+		background-image: url("../img/df-slider.png");
+		background-repeat: no-repeat;
+		background-position: center center;	
+	}
+	.owl-dot{
+		width: 49px;
+		height: 21px;
+		display: inline-block;
+	}
 }
 
 

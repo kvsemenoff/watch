@@ -78,6 +78,18 @@ input[type="submit"] {
   transition: all 0.5ms;
   background: #e60800; }
 
+.button-2 {
+  text-align: center;
+  font-family: "RobotoBold";
+  font-size: 18px;
+  background-color: #ff0900;
+  border-radius: 28px;
+  box-shadow: 5.5px 9.5px 29px rgba(0, 0, 2, 0.36);
+  text-transform: uppercase;
+  color: #fff;
+  display: inline-block;
+  padding: 10px 31px; }
+
 @media only screen and (min-width: 992px) {
   h2 {
     margin-bottom: 53px; }

@@ -24,7 +24,7 @@
 		</div>
 	</div>
 
-	<div class="title-with-text title-with-text__view2">		
+<!-- 	<div class="title-with-text title-with-text__view2">		
 	    <div class="title-with-text__title title-with-text__title_view">Безопасная доставка</div>
 		<div class="title-with-text__text">
 			<p class="title-with-tex__p title-with-tex__p_view">Вы можете заказать часы Казахстан с доставкой курьером на дом или в любое удобное для вас место. Только убедившись в качестве часов и примерив их на руку, вы произведете оплату!
@@ -39,7 +39,7 @@
 	<div class="image image-view2">
 		<img class="dc-image" src="img/dc-woman.jpg">
 	</div>
-
+ -->
 
 
 </section>

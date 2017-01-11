@@ -1,4 +1,4 @@
-<section class="section section_padding">
+<section class="section section_padding section_padding-df">
 	<div class="container df-container">
 		<div class="clear"></div>
 

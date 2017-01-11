@@ -162,48 +162,48 @@
 	.dd-timer{
 		.dd-times{
 			.dd-div{
-					background:url(../img/time-bg.png) no-repeat center;
-					float: left;
-					margin-left: 17px;
-					height: 59px;
-					width: 97px;
-					position:relative;
-					margin-top: 5px;
-					span{
-						color: #4a4949;
-						font-size: 48px;
-						font-weight: 500;
-						line-height: 15px;
-						text-shadow: 0 1px 0 black;
-						font-family: "RobotoBold";
-						letter-spacing: 20px;
-						padding-left: 11px;
-						line-height: 55px;
-					}
-				}
-				.dd-time-txt{
-					width: 51px;
-					float: left;
-					padding-left:30px;
-					span{
-						font-family: "RobotoBold";
-						font-size: 14px;
-						line-height: 15px;
-						color: #fff;
-					}
-				}
-				.dd-time-txt2{
-					padding-left:93px;
-				}
-				.dd-time-txt3{
-					padding-left:110px;
+				background:url(../img/time-bg.png) no-repeat center;
+				float: left;
+				margin-left: 17px;
+				height: 59px;
+				width: 97px;
+				position:relative;
+				margin-top: 5px;
+				span{
+					color: #4a4949;
+					font-size: 48px;
+					font-weight: 500;
+					line-height: 15px;
+					text-shadow: 0 1px 0 black;
+					font-family: "RobotoBold";
+					letter-spacing: 20px;
+					padding-left: 11px;
+					line-height: 55px;
 				}
 			}
-			.m-left{
-				margin-left: 0 !important;
+			.dd-time-txt{
+				width: 51px;
+				float: left;
+				padding-left:30px;
+				span{
+					font-family: "RobotoBold";
+					font-size: 14px;
+					line-height: 15px;
+					color: #fff;
+				}
+			}
+			.dd-time-txt2{
+				padding-left:93px;
+			}
+			.dd-time-txt3{
+				padding-left:110px;
 			}
 		}
+		.m-left{
+			margin-left: 0 !important;
+		}
 	}
+}
 
 /* Меню для мобильных устр-в
 =============================*/
@@ -344,11 +344,11 @@
 	display: inline-block;
 	background: #fff;
 	span{
-		 font-family: "RobotoBold";
-		 font-size:20px;
-		 color: #04545e;
-		 display: inline-block;
-		 text-transform: uppercase;
+		font-family: "RobotoBold";
+		font-size:20px;
+		color: #04545e;
+		display: inline-block;
+		text-transform: uppercase;
 	}
 }
 .dd-oplata-box span{
@@ -376,7 +376,57 @@
 	margin-top: 22px;
 	margin-bottom: -66px;
 }
+
+
+/* Акции
+=============================*/
+
+.act-rel{
+	position:relative;
+}
+
+.pt-act{
+	padding-top: 68px;
+	padding-bottom: 50px;
+	// padding-bottom: 254px;
+}
+
+.dd-act-txt-wrap{
+	background: #FFD85C;
+	text-align:center;
+	// padding: 35px 50px;
+	padding: 35px 10px;
+}
+
+.dd-act-txt{
+	.dd-act1{
+		font-family: "RobotoBold";
+		color: #494747;
+		font-size: 22px;
+	}
+	.dd-act2{
+		font-family: "RobotoBold";
+		color: black;
+		font-size: 34px;
+	}
+	.dd-act3{
+		font-family: "RobotoBold";
+		color: #494747;
+		font-size: 22px;
+		span{
+			color: black;
+			font-size: 22px;
+		}
+	}
+}
+
+.dd-act-button{
+	padding-top: 23px;
+	margin-bottom: -52px;
+}
+
 @media only screen and (min-width : 320px) {
+
 }
 
 @media only screen and (min-width : 480px) {
@@ -385,13 +435,14 @@
 		padding: 0px 20px 25px;
 		span{
 			
-			 font-size: 30px;
-		
+			font-size: 30px;
+
 		}
 	}
 }
 
 @media only screen and (min-width : 768px) {
+
 }
 
 @media only screen and (min-width : 992px) {
@@ -401,9 +452,44 @@
 	.section_view_dekstop-content{
 		display: block;
 	}
+	.dd-act-txt-wrap{
+		max-width: 864px;
+		margin-left: 229px;
+		transform:skew(-21deg);
+		text-align:center;
+		padding: 27px 50px 29px 360px;
+	}
+	.dd-act-txt{
+		text-align: left;
+		.dd-act1, .dd-act2, .dd-act3 {
+			display: inline-block;
+			transform:skew(21deg);
+		}
+		.dd-act2{
+			padding-left: 19px !important;
+		}
+		.dd-act3{
+			padding-left: 43px;
+			padding-top: 19px;
+		}
+	}
+	.dd-act-button{
+		transform:skew(21deg);
+		padding-left: 63px;
+	}
+	.dd-act-img{
+		position:absolute;
+		left: -54px;
+		top: -167px;	
+		z-index: 999;
+	}
+	.pt-act{
+		padding-bottom: 254px;
+	}
 }
 
 @media only screen and (min-width : 1248px) {
+
 }
 
 .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {

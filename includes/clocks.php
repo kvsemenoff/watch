@@ -58,7 +58,7 @@
 			</div>
 			
 			<div class="df-clock__right df-clock__right_view">
-				<span class="df-clock__cap df-clock__cap_view">Часы "Казахстан" <br> в черном цвете</span>
+				<span class="df-clock__cap df-clock__cap_view">Часы "Казахстан" <br> в белом цвете</span>
 				<span class="df-clock__old-price df-clock__old-price_view">27 980 тенге</span>
 				<span class="df-clock__new-price df-clock__new-price_view">13 990 тенге</span>
 				

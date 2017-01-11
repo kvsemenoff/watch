@@ -15,7 +15,7 @@
 	<link rel="stylesheet" href="css/style.css">
 
 </head>
-<body>
+<body class="pxl">
 	<script src="libs/jquery/jquery-1.11.1.min.js"></script>
 	<script src="libs/owl.carousel/owl.carousel.js"></script>
 	<script src="libs/fancybox/jquery.fancybox.pack.js"></script>
@@ -36,6 +36,7 @@
     <?php require_once('includes/what_good.php'); ?>
     <?php require_once('includes/oplata.php'); ?>
 	<?php require_once('includes/clocks.php'); ?>
+	<?php require_once('includes/slider.php'); ?>
 	<?php require_once('includes/order.php'); ?>
 	<?php require_once('includes/status_clocks.php'); ?>
 	<?php require_once('includes/certificate.php'); ?>	

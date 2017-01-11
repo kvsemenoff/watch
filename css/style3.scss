@@ -4,15 +4,6 @@
 	padding-top: 47px;
 }
 
-.dc-limit {
-	font-family: "RobotoBold";
-	color: #04545e;
-}
-
-.dc-text {
-	font-family: "RobotoBold";
-}
-
 .dc-image {
 	display: block;
 }
@@ -22,14 +13,63 @@
 	font-size: 24px;
 	font-family: "RobotoBold";
 	display: block;
-	margin-bottom: 40px;
+	margin-bottom: 40px;		
 }
 
-.title-with-tex__p_view{
+.title-with-tex__p_view {
 	font-family: "RobotoRegular";		
 	font-size: 24px;
-	color: #3f3f3f;
+	color: #3f3f3f;	
 }
+
+.title-with-text__view {
+    width: 30%;
+    float:right;
+}
+
+.title-with-text__view2 {
+    width: 30%;
+    float:left;
+}
+
+.image-view {
+    width: 50%;
+    float:left;    
+    z-index: 20;
+    position:relative;
+    top: -100px;
+    left: 300px;
+}
+
+.image-view2 {
+    width: 50%;
+    float:right;
+    z-index: 1;
+    position:relative;
+}
+
+.blue-view {
+    background: #0eb0c5;
+    width: 600px;
+    height: 200px;
+    z-index: 10;
+    position:relative;
+    top: 190px;
+}
+
+
+.image-view3 {
+    z-index: 20;
+    position: relative;
+}
+
+.image-view4 {
+    z-index: 10;
+    position: relative;
+    top: -400px;
+    left: 200px;	
+}
+
 @media only screen and (min-width : 320px) {
 }
 
@@ -44,14 +84,18 @@
 		padding-top: 47px;
 	}
 
-	.dc-limit {
-		font-family: "RobotoBold";
-		color: #04545e;
+	.image-view3 {
+	    z-index: 20;
+	    position: relative;
 	}
 
-	.dc-text {
-		font-family: "RobotoBold";
+	.image-view4 {
+	    z-index: 10;
+	    position: relative;
+	    top: -400px;
+	    left: 700px;	
 	}
+
 }
 
 @media only screen and (min-width : 1248px) {

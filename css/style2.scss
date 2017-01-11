@@ -94,7 +94,7 @@ overflow: hidden;
 
 }
 .h2-view-padding{
-	padding-bottom:20px;	
+	padding-bottom:20px;
 }
 
 @media only screen and (min-width : 320px) {
@@ -174,7 +174,7 @@ overflow: hidden;
 	background: url('../img/db-left.png') no-repeat;
 	position: absolute;
 	top: 123px;
-    left: 32px;
+    left: -72px;
 }
 
 .db-right{
@@ -183,13 +183,12 @@ overflow: hidden;
 	display: block;
 	background: url('../img/db-right.png') no-repeat;
 	position: absolute;
-	    right: 23px;
+	    right: 63px;
     top: 126px;
 }
 
 .slider-db_table{
 	display: table;
-	padding-left: 68px;
 }
 .slider-db__imgbox_cell{
 	display: table-cell;
@@ -201,12 +200,11 @@ overflow: hidden;
 }
 .slider-db__text_cell{
 	display: table-cell;
-	vertical-align: top;
+	vertical-align: middle;
 	padding-left: 66px;
     padding-bottom: 18px;
 }
 .h2-view-padding{
-margin-left:336px;
 text-align: center;
 }
 }

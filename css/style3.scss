@@ -87,6 +87,77 @@
 	}
 }
 
+form.form-view {
+	width: 470px;
+	height: 380px;
+	position: relative;
+	top: 200px;
+	background: #ffffff;
+	border-radius: 25px;
+	padding-top: 40px;	
+	padding-bottom: 55px;
+	padding-left: 60px;
+	padding-right: 60px;
+}
+
+input {
+	margin: 10px;
+	background: #f6f6f6;
+	box-sizing: border-box;
+	border: none;
+	width: 310px;	
+}
+
+.text_view2 {
+	color: #04545e;
+	font-family: "RobotoRegular";
+	font-size: 14px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.order-view {
+    font-size: 24px; 
+   	margin-bottom: 0px;
+}
+
+div.form-view {
+    background: url("../img/dc-back.jpg") no-repeat center;
+    height: 665px;    
+}
+
+#mask { position:absolute; left:0; top:0;  z-index:9000;  background-color:#000; width: 100%; height: 100%;  display:none; }
+
+.window{ 
+	display: none;
+	position:absolute;
+	left:0;  
+	top:0;
+    display:none;
+    z-index:9998; 
+    border:none;
+    .form-wrap-main{
+        border:1px solid grey;
+        background: #fff;
+        border-radius:10px;
+        padding: 10px;
+    }
+    .dd-close{
+    	width: 30px;
+    	height: 30px;
+    	background: red;
+    	// background:url(../img/kres.png) #98BE28 no-repeat center;
+    	position:absolute;
+    	top:8px;
+    	right: 8px;
+    	cursor: pointer;
+    	transition: 0.5s;
+    	border-radius:10px;
+    }
+    .dd-close:hover{
+    	// background:url(../img/kres.png) #5F7C0B no-repeat center;
+    }
+}
 
 @media only screen and (min-width : 320px) {
 }

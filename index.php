@@ -36,6 +36,7 @@
     <?php require_once('includes/what_good.php'); ?>
     <?php require_once('includes/oplata.php'); ?>
 	<?php require_once('includes/clocks.php'); ?>
+	<?php require_once('includes/slider.php'); ?>
 	<?php require_once('includes/order.php'); ?>
 	<?php require_once('includes/status_clocks.php'); ?>
 	<?php require_once('includes/certificate.php'); ?>	

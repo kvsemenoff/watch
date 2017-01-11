@@ -45,7 +45,7 @@
 	<?php require_once('includes/guarantee.php'); ?>
 	<?php require_once('includes/footer.php'); ?>
 
-	guarantee
+
 </body>
 </html>
 

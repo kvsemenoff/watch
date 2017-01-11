@@ -74,12 +74,12 @@ input[type="submit"]{
 	display: inline-block;
 	padding-top: 12px;
 	outline: none;
-	transition: all 0.5ms;
+	transition: 0.5s;
 }
 
 .button-1:hover{
-	transition: all 0.5ms;
-	background: darken(#ff0900,5%);
+	transition: 0.5s;
+	background: darken(#ff0900,10%);
 }
 
 .button-2{
@@ -95,7 +95,10 @@ input[type="submit"]{
 	padding: 10px 31px;
 }
 
-
+.button-2:hover{
+	transition: 0.5s;
+	background: darken(#ff0900,10%);
+}
 
 @media only screen and (min-width : 320px) {
 }

@@ -5,7 +5,7 @@
 }
 
 .dc-image {
-	display: block;
+	
 }
 
 .title-with-text__title_view{
@@ -37,7 +37,7 @@
     float:left;    
     z-index: 20;
     position:relative;
-    top: -100px;
+    top: -200px;
     left: 300px;
 }
 
@@ -50,11 +50,11 @@
 
 .blue-view {
     background: #0eb0c5;
-    width: 600px;
+    width: 500px;
     height: 200px;
     z-index: 10;
     position:relative;
-    top: 190px;
+    top: 100px;
 }
 
 
@@ -69,6 +69,8 @@
     top: -400px;
     left: 700px;	
 }
+
+
 
 .dc-bg-view {
 	background: url("../img/dc-bg.jpg");
@@ -117,8 +119,7 @@
 	list-style-image: url('../img/dc-list_icon.png');
 	li {
 		float: left;
-		margin: 30px;
-
+		margin: 20px;
 	}
 }
 

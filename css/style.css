@@ -72,11 +72,11 @@ input[type="submit"] {
   display: inline-block;
   padding-top: 12px;
   outline: none;
-  transition: all 0.5ms; }
+  transition: 0.5s; }
 
 .button-1:hover {
-  transition: all 0.5ms;
-  background: #e60800; }
+  transition: 0.5s;
+  background: #cc0700; }
 
 .button-2 {
   text-align: center;
@@ -89,6 +89,10 @@ input[type="submit"] {
   color: #fff;
   display: inline-block;
   padding: 10px 31px; }
+
+.button-2:hover {
+  transition: 0.5s;
+  background: #cc0700; }
 
 @media only screen and (min-width: 992px) {
   h2 {

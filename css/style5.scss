@@ -130,6 +130,7 @@
 	width: 175px;
 	height: 45px;
 	font-family: "RobotoBold";	
+	transition: 0.5s;
 }
 
 
@@ -177,9 +178,13 @@
 	color:#fff;
 	border-radius: 20px;
 	background: #ff0900;
-	font-family: "RobotoBold";	
+	font-family: "RobotoBold";
+	transition: 0.5s;	
 }
-
+.df-guarantee__link_view:hover, .df-clock__link_view:hover{
+	transition: 0.5s;
+	background: darken(#ff0900,10%);
+}
 
 
 /*slider*/

@@ -75,6 +75,7 @@
 	.image-view3 {
 	    z-index: 20;
 	    position: relative;
+	    box-shadow: 0 0 49px rgba(0, 0, 2, 0.51);
 	}
 
 	.image-view3 {
@@ -123,7 +124,7 @@ form.form-view {
 	padding-bottom: 55px;
 	padding-left: 0px;
 	padding-right: 20px;
-    box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);	
+    box-shadow: 0 0 57px rgba(0, 0, 2, 0.75);
 }
 
 input {
@@ -217,13 +218,15 @@ div.form-view {
 	.image-view3 {
 	    z-index: 20;
 	    position: relative;
+	    box-shadow: 0 0 49px rgba(0, 0, 2, 0.51);
 	}
 
 	.image-view4 {
 	    z-index: 10;
 	    position: relative;
 	    top: -400px;
-	    left: 700px;	
+	    left: 750px;
+	    width:	500px;
 	}
 
 
@@ -238,7 +241,7 @@ div.form-view {
 		padding-bottom: 55px;
 		padding-left: 60px;
 		padding-right: 60px;
-		box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
+		box-shadow: 0 0 57px rgba(0, 0, 2, 0.75);
 	}
 
 	input {

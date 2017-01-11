@@ -15,7 +15,7 @@
 	<link rel="stylesheet" href="css/style.css">
 
 </head>
-<body>
+<body class="pxl-1">
 	<script src="libs/jquery/jquery-1.11.1.min.js"></script>
 	<script src="libs/owl.carousel/owl.carousel.js"></script>
 	<script src="libs/fancybox/jquery.fancybox.pack.js"></script>
@@ -41,10 +41,11 @@
 	<?php require_once('includes/status_clocks.php'); ?>
 	<?php require_once('includes/certificate.php'); ?>	
 	<?php require_once('includes/testimonials.php'); ?>
+	<?php require_once('includes/actsii.php'); ?>
 	<?php require_once('includes/guarantee.php'); ?>
 	<?php require_once('includes/footer.php'); ?>
 
-	guarantee
+
 </body>
 </html>
 

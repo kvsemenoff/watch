@@ -58,17 +58,21 @@
 }
 
 
+
 .image-view3 {
     z-index: 20;
     position: relative;
+    width: 150px;
 }
 
 .image-view4 {
     z-index: 10;
     position: relative;
-    top: -400px;
-    left: 200px;	
+    width: 200px;
+    top: -50px;
+    left: 70px;	
 }
+
 
 .text_view {
 	color: #04545e;
@@ -100,6 +104,7 @@ form.form-view {
 	padding-bottom: 55px;
 	padding-left: 0px;
 	padding-right: 20px;
+    box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);	
 }
 
 input {
@@ -177,6 +182,7 @@ div.form-view {
 		padding-top: 47px;
 	}
 
+
 	.image-view3 {
 	    z-index: 20;
 	    position: relative;
@@ -189,6 +195,7 @@ div.form-view {
 	    left: 700px;	
 	}
 
+
 	form.form-view {
 		width: 470px;
 		height: 380px;
@@ -200,6 +207,7 @@ div.form-view {
 		padding-bottom: 55px;
 		padding-left: 60px;
 		padding-right: 60px;
+		box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
 	}
 
 	input {

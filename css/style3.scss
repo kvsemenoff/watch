@@ -175,12 +175,13 @@ input {
 
 div.form-view {
     background: url("../img/dc-back.jpg") no-repeat center;
-    height: 665px;    
+    height: 665px;       
 }
 
 .all-pride-view	{
 	h2 {
 		padding-bottom: 0px;
+		margin-bottom: 10px;
 	}
 }
 
@@ -263,23 +264,35 @@ div.form-view {
 		width: 470px;
 		height: 380px;
 		position: relative;
-		top: 200px;
+		top: 170px;
 		background: #ffffff;
 		border-radius: 25px;
-		padding-top: 40px;	
+		padding-top: 30px;	
 		padding-bottom: 55px;
-		padding-left: 60px;
-		padding-right: 60px;
+		padding-left: 40px;
+		padding-right: 40px;
 		box-shadow: 0 0 57px rgba(0, 0, 2, 0.75);
+
+		input[type="text"] {
+			background: #f6f6f6;
+			box-sizing: border-box;
+			border: none;
+			width: 310px;
+			font-family: "RobotoRegular";
+			font-size: 18px;
+			color: #868686;
+			text-align:center;
+			height: 49px;
+			border: 1px solid #b7b7b7;
+			border-radius: 20px;
+			outline: none;
+		}
+
+		input[type="submit"] {
+			margin-top: 30px;
+		}
 	}
 
-	input {
-		margin: 10px;
-		background: #f6f6f6;
-		box-sizing: border-box;
-		border: none;
-		width: 310px;	
-	}
 
 	.text_view2 {
 		color: #04545e;
@@ -292,6 +305,8 @@ div.form-view {
 	.order-view {
 	    font-size: 24px; 
 	   	margin-bottom: 0px;
+	   	margin: 0 auto;
+	   	padding-top: 0;
 	}
 
 	div.form-view {

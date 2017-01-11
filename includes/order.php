@@ -12,9 +12,11 @@
 		        </div>
 		    </center>
 
-        	<input type="text" name="name" placeholder="Имя">
-        	<input type="text" name="phone" class="phone" placeholder="Контактный телефон">
-        	<input type="submit" name="">
+            <center>
+        	<input type="text" name="name" placeholder="Имя"><br>
+        	<input type="text" name="phone" class="phone" placeholder="Контактный телефон"><br>
+        	<input type="submit" name="" value="Отправить заявку">
+        	</center>
         </form>    	
     </div>
     </center>

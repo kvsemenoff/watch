@@ -300,28 +300,95 @@
 	opacity: 0.8;
 }
 
-/* Стили при фиксации меню
-=============================*/
+// Стили при фиксации меню
 
 .header-no-fixed{
 	display:none;
 	position:none;
 }
+
 // Тут можно задать изменение цвета фона при скроле
 .header-fixed{
 	position:fixed;
 	top:0;
 	z-index:999;
 	border-bottom:1px solid #00B2C7;
-	// background: rgba(#2B66AA, 0.9);
+	background: #fff;
+	// background: rgba(#fff, 1);
 	width:100%;
 }
 
+/* Доставка и оплата
+=============================*/
 
+.dd-border{
+	border:2px solid #D1D1D1;
+	padding:88px 77px 47px;
+	margin-bottom: 29px;
+}
+// .dd-min-border{
+// 	border:1px solid #E9E9E9;
+// }
+.dd-oplata-box, .dd-title-oplata{
+	text-align:center;
+}
+.dd-oplata-box-first{
+	padding-bottom: 25px;
+}
+.dd-title-oplata-wrap{
+	text-align:center;
+	margin-top: -109px;
+}
+.dd-title-oplata{
+	padding: 0px 20px 25px;
+	display: inline-block;
+	background: #fff;
+	span{
+		 font-family: "RobotoBold";
+		 font-size:20px;
+		 color: #04545e;
+		 display: inline-block;
+		 text-transform: uppercase;
+	}
+}
+.dd-oplata-box span{
+	font-size: 14px;
+	display:inline-block;
+	font-family: "RobotoRegular";
+	color: #04545e;
+}
+.dd-oplata-box-last{
+	padding-top: 14px;
+}
+.dd-italic{
+	padding-top: 25px;
+	display:inline-block;
+	font-style:italic;
+}
+.dd-oplata-txt{
+	padding-top: 31px;
+}
+.dd-oplata-txt-last{
+	padding-top: 49px;
+}
+.dd-oplata-button{
+	text-align:center;
+	margin-top: 22px;
+	margin-bottom: -66px;
+}
 @media only screen and (min-width : 320px) {
 }
 
 @media only screen and (min-width : 480px) {
+
+	.dd-title-oplata{
+		padding: 0px 20px 25px;
+		span{
+			
+			 font-size: 30px;
+		
+		}
+	}
 }
 
 @media only screen and (min-width : 768px) {

@@ -74,6 +74,11 @@
 	background: url("../img/dc-bg.jpg");
 }
 
+
+.all-pride-view {
+	padding-top: 40px;
+}
+
 @media only screen and (max-width : 792px) {
 	.image-view3 {
 	    z-index: 20;
@@ -101,6 +106,8 @@
 	color: #04545e;
 	font-family: "RobotoRegular";
 	font-size: 18px;
+	padding-top: 0px;
+	margin: 0 auto;
 }
 
 .dc-list-view {
@@ -110,11 +117,10 @@
 	list-style-image: url('../img/dc-list_icon.png');
 	li {
 		float: left;
-		margin: 50px;
+		margin: 30px;
+
 	}
 }
-
-
 
 form.form-view {
 	width: 270px;
@@ -156,7 +162,11 @@ div.form-view {
     height: 665px;    
 }
 
-
+.all-pride-view	{
+	h2 {
+		padding-bottom: 0px;
+	}
+}
 
 #mask { position:absolute; left:0; top:0;  z-index:9000;  background-color:#000; width: 100%; height: 100%;  display:none; }
 

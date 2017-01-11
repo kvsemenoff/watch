@@ -83,6 +83,34 @@ $(document).ready(function(){
 
   });
 
+    var owl2 = $("#slider-df");
+
+    owl2.owlCarousel({
+
+        loop:true,//Зацикливаем слайдер
+        nav:true, //Навигация включена
+        autoplay:false,//автозапуск
+        smartSpeed:1000,//Время движения
+        margin:0,    
+        navText:['<span class="df-left"></span>','<span class="df-right"></span>'],
+        responsive:{
+            0:{
+              items:1
+          },
+          768:{
+            items:2
+          },       
+          1000:{
+              items:3
+          },
+          1248:{
+              items:3
+          }
+      }
+
+  });
+
+
  });
 
 

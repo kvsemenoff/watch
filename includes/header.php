@@ -115,7 +115,7 @@
 <script>
 	var count = 8;
 	var minutes = 17;
-	var hours = 12;
+	var hours = 2;
 
 	var end = 0;
 

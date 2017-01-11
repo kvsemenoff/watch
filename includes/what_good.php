@@ -2,9 +2,7 @@
 	<center><h2>ЧЕМ ХОРОШИ ЧАСЫ КАЗАХСТАН</h2></center>
 
     <div class="blue-view">
-        <div class="blue2-view">
-        	
-        </div>
+
     </div>
 	<div class="image image-view">	    
 		<img class="dc-image" src="img/dc-clock.jpg">

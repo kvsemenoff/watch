@@ -53,7 +53,7 @@
 			<div class="clear"></div>	
 		</div>
 		<div class="df-clock df-clock_view-align df-margin">
-			<div class="df-clock__left df-clock__left_view">
+			<div class="df-clock__left df-clock__left_view df-bg">
 				<img class="df-clock__img df-img-absolute img-responsive" src="img/df-clock2.png" alt="">							
 			</div>
 			

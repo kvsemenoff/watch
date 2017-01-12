@@ -109,6 +109,8 @@ $(document).ready(function(){
         }
 
       });
+
+  // Привязка кнопок
   $("#js-started, #js-started-mob, #js-started-opl, #js-started-port, #js-started-garant").click(function(event){
     event.preventDefault();
     var plansoffset = $("#js-clock").offset().top;
@@ -117,6 +119,18 @@ $(document).ready(function(){
       scrollTop: plansoffset 
     }, 500);
   });
+
+  // Якоря меню
+ 
+    $("#js-nav a, #js-nav2 a").click(function(e){
+      e.preventDefault();
+      var currentBlock = $(this).attr("href");
+      currentBlockoffset = $(currentBlock).offset().top;
+      $("html, body").animate({
+        scrollTop: currentBlockoffset
+      }, 500);
+    });
+
 
 });
 

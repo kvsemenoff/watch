@@ -1,4 +1,4 @@
-<section class="section section_view-oplata">
+<section class="section section_view-oplata" id="js-opl">
 	<div class="container dd-border">
 		<div class="dd-min-border">
 			<div class="row">

@@ -266,18 +266,20 @@ div.form-view {
 
 .image-view4 {
     position: relative;
-    top: 1000px;
-    left: -1030px;
+    top: 5%;
+    left: 10%;
+    width: 80%;
 }
 
 .dc-bg-view {
     background: url("../img/dc-bg.jpg");    	
-    height: 1530px;
+    height: 730px;
 }
 
 .dc-bg-view1 {
-    height: 1530px;
+    height: 730px;
 }
+
 
 @media only screen and (min-width : 320px) {
 	.image-view3 {
@@ -301,6 +303,47 @@ div.form-view {
 	.dc-bg-view1 {
 	    height: 1230px;
 	}
+
+	.dc-list-view {
+		color: #04545e;
+		font-family: "RobotoRegular";
+		font-size: 18px;	
+		padding-left: 70px;
+		padding-right: 70px;
+
+		li {
+			float: left;
+			margin: 20px;
+			position: relative;
+	        z-index: 10;
+	        vertical-align:middle;
+	        display: block;
+	        text-align: left;
+		}
+		li:before {
+	        position: absolute;
+			 content: "";
+			 background: url('../img/dc-list_icon.png') no-repeat top center;
+			 width: 100%;
+			 height: 100%;
+			 left: -150px;
+			 top: 0px;
+			 opacity: 0.5;
+			 z-index: 20;
+		}
+		li.dc-li3:before {
+	        position: absolute;
+			 content: "";
+			 background: url('../img/dc-list_icon.png') no-repeat top center;
+			 width: 100%;
+			 height: 100%;
+			 left: -150px;
+			 top: 0px;
+			 opacity: 0.5;
+			 z-index: 20;
+		}		
+	}	
+
 
 }
 
@@ -328,7 +371,48 @@ div.form-view {
 
 	.dc-bg-view1 {
 	    height: 1330px;
+	}
+
+	.dc-list-view {
+		color: #04545e;
+		font-family: "RobotoRegular";
+		font-size: 18px;	
+		padding-left: 70px;
+		padding-right: 70px;
+
+		li {
+			float: left;
+			margin: 20px;
+			position: relative;
+	        z-index: 10;
+	        vertical-align:middle;
+	        display: block;
+	        text-align: left;
+		}
+		li:before {
+	        position: absolute;
+			 content: "";
+			 background: url('../img/dc-list_icon.png') no-repeat top center;
+			 width: 100%;
+			 height: 100%;
+			 left: -180px;
+			 top: 0px;
+			 opacity: 0.5;
+			 z-index: 20;
+		}
+		li.dc-li3:before {
+	        position: absolute;
+			 content: "";
+			 background: url('../img/dc-list_icon.png') no-repeat top center;
+			 width: 100%;
+			 height: 100%;
+			 left: -205px;
+			 top: 0px;
+			 opacity: 0.5;
+			 z-index: 20;
+		}		
 	}	
+
 }
 
 @media only screen and (min-width : 768px) {
@@ -356,6 +440,46 @@ div.form-view {
 	.dc-bg-view1 {
 	    height: 1830px;
 	}	
+
+    .dc-list-view {
+		color: #04545e;
+		font-family: "RobotoRegular";
+		font-size: 18px;	
+		padding-left: 70px;
+		padding-right: 70px;
+
+		li {
+			float: left;
+			margin: 20px;
+			position: relative;
+	        z-index: 10;
+	        vertical-align:middle;
+	        display: block;
+	        text-align: left;
+		}
+		li:before {
+	        position: absolute;
+			 content: "";
+			 background: url('../img/dc-list_icon.png') no-repeat top center;
+			 width: 100%;
+			 height: 100%;
+			 left: -150px;
+			 top: 0px;
+			 opacity: 0.5;
+			 z-index: 20;
+		}
+		li.dc-li3:before {
+	        position: absolute;
+			 content: "";
+			 background: url('../img/dc-list_icon.png') no-repeat top center;
+			 width: 100%;
+			 height: 100%;
+			 left: -180px;
+			 top: 0px;
+			 opacity: 0.5;
+			 z-index: 20;
+		}		
+	}	
 }
 
 @media only screen and (min-width : 992px) {
@@ -366,7 +490,7 @@ div.form-view {
 	.image-view3 {
 	    z-index: 20;
 	    position: relative;
-	    width: 40%;
+	    width: unset;
 	    box-shadow: 0 0 49px rgba(0, 0, 2, 0.51);
 	}
 
@@ -374,18 +498,18 @@ div.form-view {
 	    z-index: 10;
 	    position: relative;
 	    top: -200px;
-	    left: 60%;
-	    width:	30%;
+	    left: 55%;
+	    width: unset;
 	    align: center;
 	}
 
 	.dc-bg-view {
 	    background: url("../img/dc-bg.jpg");    	
-	    height: 1400px;
+	    height: 1000px;
 	}
 
 	.dc-bg-view1 {
-	    height: 1400px;
+	    height: 1000px;
 	}	
 
 

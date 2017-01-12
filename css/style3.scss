@@ -266,18 +266,20 @@ div.form-view {
 
 .image-view4 {
     position: relative;
-    top: 1000px;
-    left: -1030px;
+    top: 5%;
+    left: 10%;
+    width: 80%;
 }
 
 .dc-bg-view {
     background: url("../img/dc-bg.jpg");    	
-    height: 1530px;
+    height: 730px;
 }
 
 .dc-bg-view1 {
-    height: 1530px;
+    height: 730px;
 }
+
 
 @media only screen and (min-width : 320px) {
 	.image-view3 {
@@ -374,18 +376,18 @@ div.form-view {
 	    z-index: 10;
 	    position: relative;
 	    top: -200px;
-	    left: 60%;
+	    left: 65%;
 	    width:	30%;
 	    align: center;
 	}
 
 	.dc-bg-view {
 	    background: url("../img/dc-bg.jpg");    	
-	    height: 1400px;
+	    height: 1000px;
 	}
 
 	.dc-bg-view1 {
-	    height: 1400px;
+	    height: 1000px;
 	}	
 
 

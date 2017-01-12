@@ -368,7 +368,7 @@ div.form-view {
 	.image-view3 {
 	    z-index: 20;
 	    position: relative;
-	    width: 40%;
+	    width: unset;
 	    box-shadow: 0 0 49px rgba(0, 0, 2, 0.51);
 	}
 
@@ -376,8 +376,8 @@ div.form-view {
 	    z-index: 10;
 	    position: relative;
 	    top: -200px;
-	    left: 65%;
-	    width:	30%;
+	    left: 55%;
+	    width: unset;
 	    align: center;
 	}
 

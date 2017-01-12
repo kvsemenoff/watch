@@ -41,7 +41,7 @@
     <div class="clear"></div>
 	
 	<div class="dc-left-view2">
-		<div class="title-with-text title-with-text__view2">
+		<div class="title-with-text title-with-text__view2" style="padding-left:50px;">
 			
 			<div class="title-with-text__title title-with-text__title_view">
 			    Безопасная доставка!

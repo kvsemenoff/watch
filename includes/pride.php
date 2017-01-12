@@ -10,18 +10,18 @@
 			</div>			
 
 			<br>
-			<hr width="20%">
+			<hr width="35%" style="color: #acacac; height: 2px;">
 
 			<center>
 				<ul class="dc-list-view">
-					<li>
+					<li class="dc-li1">
 						Циферблат покрыт эмалью, на<br> циферблате - позолоченные<br> накладные знаки.
 					</li>
-					<li>
-						Круглый классический корпус покрыт <br>позолотой
+					<li class="dc-li2">
+						Круглый классический корпус <br>покрыт позолотой
 					</li>
-					<li>
-						Идеально подходит в качестве <br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp наградных часов, часов с логотипом
+					<li class="dc-li3">
+						Идеально подходит в качестве <br>наградных часов, часов с логотипом
 					</li>
 				</ul>
 			</center>

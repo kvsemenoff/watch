@@ -19,7 +19,7 @@
 					<span class="df-guarantee__txt df-guarantee__txt_view1 df-padding">Высочайшее качество</span>
 					<span class="df-guarantee__txt df-guarantee__txt_view2">Производство под тщательным контролем</span>
 				</div>
-				<a href="#" class="df-guarantee__link df-guarantee__link_view">Выбрать модель и заказать</a>
+				<a href="#" id="js-started-garant" class="df-guarantee__link df-guarantee__link_view">Выбрать модель и заказать</a>
 			</div>
 		</div>
 	</div>

@@ -50,7 +50,7 @@
 						<div class="clear"></div>
 					</div>
 					<div class="dd-oplata-button">
-						<a class="button-2" href="#">выбрать модель и заказать</a>
+						<a class="button-2" id="js-started-opl" href="#">выбрать модель и заказать</a>
 					</div>
 				</div>
 			</div>

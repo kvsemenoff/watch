@@ -1,4 +1,4 @@
-<section class="section section_padding section_view-df">
+<section class="section section_padding section_view-df" id="js-clock">
 	<div class="container df-container">
 	<div class="clear"></div>	
 		<h2 class="df-caption_view">Выбери свои часы Казахстан</h2>

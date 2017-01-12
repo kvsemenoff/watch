@@ -13,7 +13,7 @@
 							в ПОДАРОК!</span></span>
 						</div>
 						<div class="dd-act-button">
-							<a class="button-1" href="#">выбрать часы</a>
+							<a class="button-1" id="js-started-port" href="#">выбрать часы</a>
 						</div>
 					</div>
 				</div>

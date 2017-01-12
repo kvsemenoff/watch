@@ -50,7 +50,7 @@
 				<div class="dd-content-mobile">
 					<span>Часы премиум класса<br>со скидкой 50%</span><br>
 					<span class="dd-span2">27980 тенге</span><span class="dd-span3">13990 тенге</span><br>
-					<a href="#" class="button-dd">выбрать часы</a>
+					<a href="#" id="js-started-mob" class="button-dd">выбрать часы</a>
 				</div>
 			</div>
 		</div>
@@ -101,7 +101,7 @@
 						</div>
 					</div>
 					<div class="dd-header-button">
-						<a class="button-1 m-top" href="#">выбрать часы</a>
+						<a class="button-1 m-top" id="js-started" href="#">выбрать часы</a>
 					</div>
 				</div>
 			</div>
@@ -109,7 +109,13 @@
 	</div>
 </section>
 
+<script>
 
+
+
+
+
+</script>
 
 <!-- Таймер -->
 <script>

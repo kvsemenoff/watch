@@ -1,6 +1,6 @@
-<section class="section section_padding section_padding-dc">
+<section class="section section_padding section_padding-dc dc-bg-view">
 
-    <div class="dc-bg-view">
+    <div class="dc-bg-view1">
 	    <center><h2>ВСЯ	ПРОДУКЦИЯ СЕРТИФИЦИРОВАНА</h2></center>
 		<div class="image">	    
 	    	<center>

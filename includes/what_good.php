@@ -1,5 +1,9 @@
-<section class="section section_padding section_padding-dc">
-	<center><h2>ЧЕМ ХОРОШИ ЧАСЫ КАЗАХСТАН</h2></center>
+<section class="section section_padding section_padding-dc dc-what_good" style="padding-top: 0px; margin-top: 0px;">
+	<center>
+	    <h2 class="what_good_h2">
+	        ЧЕМ ХОРОШИ ЧАСЫ КАЗАХСТАН
+	    </h2>
+	</center>
 
     <div class="dc-left-view">
 		<div class="blue-view">

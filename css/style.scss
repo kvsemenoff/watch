@@ -4,7 +4,10 @@
 @import "style4.css";
 @import "style5.css";
 @import "fonts.css";
-
+body{
+	font-family: "RobotoRegular";
+	font-size: 14px;
+}
 .pxl{
 	position: relative;
 	z-index: 10;

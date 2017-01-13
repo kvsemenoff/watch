@@ -20,7 +20,7 @@
 <div id="log-in" class="window">
 	<div class="dd-popup-wrap">	  
 		<div class="dd-chas-img">
-			<img src="img/ch1.png" alt="">
+			<img src="img/ch1.png" alt="" id="popup-img">
 		</div>    
 		<form class="form4" method="post" action="#">
 		<div class="dd-close"></div>

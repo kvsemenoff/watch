@@ -9,7 +9,7 @@
 			</div>		
 			<div class="col-md-6">
 				<div class="footer__right footer__right_position">
-					<a href="#">Политика конфиденциальности</a>
+					<a href="/politics.html">Политика конфиденциальности</a>
 				</div>
 			</div>
 		</div>

@@ -68,7 +68,11 @@ $(document).ready(function(){
     posTop = (window.pageYOffset !== undefined) ? window.pageYOffset : (document.documentElement ||document.body.parentNode || document.body).scrollTop;
     $(id).css('top',  posTop+50);
     $(id).css('left', winW/2-$(id).width()/2);
+    var imgsrc = $(this).parents('.df-clock').find('.df-clock__img').attr('src');
+   // alert(imgsrc);
+    $('#popup-img').attr('src', imgsrc);
     $(id).fadeIn(500); 
+  
 });
   $('.window .dd-close').click(function (e) {
     e.preventDefault();

@@ -6,18 +6,18 @@ $(document).ready(function(){
   $(".az-select").click(function(){
     $(this).find('.az-options').slideToggle(0);
     $(this).toggleClass('az-select-focus');
-  });
+});
 
   $(".form3").submit(function() { 
     var tel = $(this).find('input[name="phone"]');
     var empty = false;
     if (tel.val() == ""){
       empty = true;
-    }
-    if (empty == true){
+  }
+  if (empty == true){
       tel.addClass("error-input");
       tel.focus();
-    }else{
+  }else{
       var form_data = $(this).serialize(); 
       $.ajax({
         type: "POST", 
@@ -25,11 +25,35 @@ $(document).ready(function(){
         data: form_data,
         success: function() {
           cleanTnanks(this);
-        }
-      });
-    }
-    return false;
+      }
   });
+  }
+  return false;
+});
+
+  $(".form4").submit(function() { 
+    var tel = $(this).find('input[name="phone"]');
+    var empty = false;
+    if (tel.val() == ""){
+      empty = true;
+  }
+  if (empty == true){
+      tel.addClass("error-input");
+      tel.focus();
+  }else{
+      var form_data = $(this).serialize(); 
+      $.ajax({
+        type: "POST", 
+        url: "/sendmessage.php", 
+        data: form_data,
+        success: function() {
+          cleanTnanks(this);
+      }
+  });
+  }
+  return false;
+});
+
   $(".phone").mask("+ 7 (999) 999 - 99 - 99?"); 
 
   $('a[name=modal]').click(function(e) {
@@ -45,23 +69,25 @@ $(document).ready(function(){
     $(id).css('top',  posTop+50);
     $(id).css('left', winW/2-$(id).width()/2);
     $(id).fadeIn(500); 
-  });
+});
   $('.window .dd-close').click(function (e) {
     e.preventDefault();
     $('#mask, .window').hide();
     $('.window').hide();
-  }); 
+});
+
 
   function cleanTnanks(form){
     $('input[type="text"]').removeClass("error-input");
     $("input[type=text], textarea").val("");
     $('.window').hide();
-    $('a[href=#thanks]').trigger('click');
-  };
+     location = "spasibo.php";
+    // $('a[href=#thanks]').trigger('click');
+};
 
-  var owl = $(".slider-db");
+var owl = $(".slider-db");
 
-  owl.owlCarousel({
+owl.owlCarousel({
 
         loop:true,//Зацикливаем слайдер
         nav:true, //Навигация включена
@@ -72,20 +98,20 @@ $(document).ready(function(){
         responsive:{
           0:{
             items:1
-          },       
-          1000:{
+        },       
+        1000:{
             items:1
-          },
-          1248:{
+        },
+        1248:{
             items:1
-          }
         }
+    }
 
-      });
+});
 
-  var owl2 = $("#slider-df");
+var owl2 = $("#slider-df");
 
-  owl2.owlCarousel({
+owl2.owlCarousel({
 
         loop:true,//Зацикливаем слайдер
         nav:true, //Навигация включена
@@ -96,19 +122,19 @@ $(document).ready(function(){
         responsive:{
           0:{
             items:1
-          },
-          768:{
+        },
+        768:{
             items:2
-          },       
-          1000:{
+        },       
+        1000:{
             items:3
-          },
-          1248:{
+        },
+        1248:{
             items:3
-          }
         }
+    }
 
-      });
+});
 
   // Привязка кнопок
   $("#js-started, #js-started-mob, #js-started-opl, #js-started-port, #js-started-garant").click(function(event){
@@ -117,19 +143,19 @@ $(document).ready(function(){
     // console.log(plansoffset);
     $("html, body").animate({
       scrollTop: plansoffset 
-    }, 500);
-  });
+  }, 500);
+});
 
   // Якоря меню
- 
-    $("#js-nav a, #js-nav2 a").click(function(e){
+
+  $("#js-nav a, #js-nav2 a").click(function(e){
       e.preventDefault();
       var currentBlock = $(this).attr("href");
       currentBlockoffset = $(currentBlock).offset().top;
       $("html, body").animate({
         scrollTop: currentBlockoffset -40
-      }, 500);
-    });
+    }, 500);
+  });
 
 });
 

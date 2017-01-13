@@ -498,8 +498,12 @@ body, html{
 	border-radius: 20px;
 	box-shadow: 0 0 57px rgba(0, 0, 2, 0.75);
 	// padding: 39px 75px;
-	padding: 39px 15px 39px 0px;
+	padding: 40px 15px 28px 0px;
 	text-align:center;
+	position:relative;
+	.dd-chas-img{
+		display: none;
+	}
 	.dd-form-title{
 		font-family: "RobotoBold";
 		color: #04545e;
@@ -536,7 +540,7 @@ body, html{
 		color: #333;
 		font-size: 14px;
 		font-family: "RobotoRegular";
-		padding-bottom: 27px;
+		padding-bottom: 14px;
 	}
 	.text-transform{
 		text-transform: unset;
@@ -562,7 +566,14 @@ body, html{
 @media only screen and (min-width : 768px) {
 
 	.dd-popup-wrap{
-		padding: 39px 75px;
+		// padding: 39px 75px;
+		padding: 40px 85px 28px 75px;
+		.dd-chas-img{
+			display: block;
+			position:absolute;
+			left: -143px;
+			bottom:-153px;
+		}
 	}
 
 }

@@ -14,13 +14,15 @@
 			</div>
 		</div>
 	</div>
-	<a href="#log-in" name="modal">000</a>
 </footer>
 
 <div id="mask"></div>
 <div id="log-in" class="window">
-	<div class="dd-popup-wrap">	      
-		<form action="#">
+	<div class="dd-popup-wrap">	  
+		<div class="dd-chas-img">
+			<img src="img/ch1.png" alt="">
+		</div>    
+		<form class="form4" method="post" action="#">
 		<div class="dd-close"></div>
 			<div class="dd-form-title">
 				<span>Заказать часы</span>
@@ -36,8 +38,9 @@
 			<div class="dd-min-txt">
 				<span>Оставьте свои контактные данные<br>
 					мы Вам перезвоним</span>
-				</div>
-				<a class="button-1 text-transform" href="#">Отправить заявку</a>
+			</div>
+				<!-- <a class="button-1 text-transform" href="#">Отправить заявку</a> -->
+				<input type="submit" class="form-button" name="submit" value="Отправить заявку">
 			</form>   	
 		</div>	
 	</div>

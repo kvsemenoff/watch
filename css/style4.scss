@@ -489,6 +489,60 @@ body, html{
 	margin-bottom: -52px;
 }
 
+/* Поп ап
+================================*/
+
+.dd-popup-wrap{
+	background: #fff;
+	max-width:468px;
+	border-radius: 20px;
+	box-shadow: 0 0 57px rgba(0, 0, 2, 0.75);
+	// padding: 39px 75px;
+	padding: 39px 15px 39px 0px;
+	text-align:center;
+	.dd-form-title{
+		font-family: "RobotoBold";
+		color: #04545e;
+		font-size: 24px;
+		text-transform:uppercase;
+	}
+	.dd-form-slogan{
+		font-family: "RobotoRegular";
+		color: #088393;
+		font-size: 14px;
+		margin: 24px 0px;
+	}
+	.dd-form-price{
+		padding-bottom: 24px;
+		span{
+			display: inline-block;
+			font-family: "RobotoRegular";
+			color: #848484;
+			font-size: 14px;
+			text-decoration: line-through;
+			
+			span{
+				display: inline-block;
+				font-family: "RobotoBold";
+				color: black;
+				font-weight: 700;
+				font-size: 18px;
+				text-decoration: unset;
+				padding-left: 16px;
+			}
+		}
+	}
+	.dd-min-txt{
+		color: #333;
+		font-size: 14px;
+		font-family: "RobotoRegular";
+		padding-bottom: 27px;
+	}
+	.text-transform{
+		text-transform: unset;
+	}
+}
+
 @media only screen and (min-width : 320px) {
 
 }
@@ -506,6 +560,10 @@ body, html{
 }
 
 @media only screen and (min-width : 768px) {
+
+	.dd-popup-wrap{
+		padding: 39px 75px;
+	}
 
 }
 
@@ -548,7 +606,7 @@ body, html{
 		z-index: 999;
 	}
 	.pt-act{
-		padding-bottom: 254px;
+		padding-bottom: 165px;
 	}
 }
 

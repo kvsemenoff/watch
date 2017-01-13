@@ -14,5 +14,30 @@
 			</div>
 		</div>
 	</div>
-	
+	<a href="#log-in" name="modal">000</a>
 </footer>
+
+<div id="mask"></div>
+<div id="log-in" class="window">
+	<div class="dd-popup-wrap">	      
+		<form action="#">
+		<div class="dd-close"></div>
+			<div class="dd-form-title">
+				<span>Заказать часы</span>
+			</div>
+			<div class="dd-form-slogan">
+				<span>Модель часы КАЗАХСТАН в черном цвете</span>
+			</div>
+			<div class="dd-form-price">
+				<span>27 980 <span>13 990 тенге</span></span>
+			</div>
+			<input type="text" name="uname" placeholder="Имя">
+			<input class="my-input phone" name="phone" type="text" placeholder="Контактный телефон">
+			<div class="dd-min-txt">
+				<span>Оставьте свои контактные данные<br>
+					мы Вам перезвоним</span>
+				</div>
+				<a class="button-1 text-transform" href="#">Отправить заявку</a>
+			</form>   	
+		</div>	
+	</div>

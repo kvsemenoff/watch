@@ -127,10 +127,9 @@ $(document).ready(function(){
       var currentBlock = $(this).attr("href");
       currentBlockoffset = $(currentBlock).offset().top;
       $("html, body").animate({
-        scrollTop: currentBlockoffset
+        scrollTop: currentBlockoffset -40
       }, 500);
     });
-
 
 });
 

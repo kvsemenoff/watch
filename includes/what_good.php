@@ -1,13 +1,14 @@
 <section class="section section_padding section_padding-dc dc-what_good" style="padding-top: 0px; margin-top: 0px;">
+
 	<center>
 	    <h2 class="what_good_h2">
 	        ЧЕМ ХОРОШИ ЧАСЫ КАЗАХСТАН
 	    </h2>
 	</center>
 
-    <div class="dc-left-view">
+    <div class="dc-left-view dc-left-view_m-top">
 		<div class="blue-view">
-	        <img class="dc-image" src="img/dc-clock.png">
+	        <img class="dc-image img-responsive" src="img/dc-clock.png">
 	    </div>
      </div>	
 	
@@ -40,8 +41,8 @@
     
     <div class="clear"></div>
 	
-	<div class="dc-left-view2">
-		<div class="title-with-text title-with-text__view2" style="padding-left:50px;">
+	<div class="dc-left-view2 df-left-view">
+		<div class="title-with-text title-with-text__view2">
 			
 			<div class="title-with-text__title title-with-text__title_view">
 			    Безопасная доставка!
@@ -61,21 +62,21 @@
 		</div>
 	</div>		
 
-    <div class="dc-right-view">
+    <div class="dc-right-view df-height">
 		<div class="blue-view2">
-	        <img class="dc-image2" src="img/dc-woman.png">
+	        <img class="dc-image2 img-responsive" src="img/dc-woman.png">
 	    </div>
     </div>	
 
     <div class="clear"></div>
-        <div class="dc-left-view">
-		<div class="blue-view">
-	        <img class="dc-image3" src="img/tochni.png">
+        <div class="dc-left-view dc-left-view_margin">
+		<div class="blue-view  blue-view3">
+	        <img class="dc-image3 img-responsive" src="img/tochni.png">
 	    </div>
      </div>	
 	
 	<div class="dc-right-view">
-		<div class="title-with-text title-with-text__view">
+		<div class="title-with-text title-with-text__view title-with-text__view3">
 			
 			<div class="title-with-text__title title-with-text__title_view">
 			    Надежный высокоточный механизм!
@@ -96,7 +97,7 @@
 				<p class="title-with-text__p title-with-tex__p_view">
 					-Отклонение в точности хода не более одной секунды в сутки.
 				</p>
-
+				<br>
 				<p class="title-with-text__p title-with-tex__p_view">
 					-Заводская гарантия на механизм 1 год.
 				</p>			

@@ -452,27 +452,27 @@
 	padding-right: 0px;	
 	width: auto;
 }
-.df-height{
+.df-height{	
 	height: 520px;
+	padding-left: 220px;
+	position: relative;
+	top: 203px;	
+	width: 56% !important;
 }
 .dc-right-view {
     float: left;
     width: 50%;    
 }
-.blue-view2 {
-    // width: 500px;
-    height: 200px;
-    // z-index: 10;
-    position: relative;
-    top: 203px;
-	left: 221px;
+.blue-view2 {    
+    height: 200px;   
+    position: unset; 
     background: #0EB0C5;
 }
 .dc-image2 {
     width: auto;   
     position: absolute;
-    top: -180px;
-    left: -179px;    
+	top: -180px;
+	left: 42px;    
 	padding-top: 0px;
 	transform: none;
 }

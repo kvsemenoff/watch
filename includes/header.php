@@ -109,13 +109,6 @@
 	</div>
 </section>
 
-<script>
-
-
-
-
-
-</script>
 
 <!-- Таймер -->
 <script>

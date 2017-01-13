@@ -1,4 +1,73 @@
 
+/* Страница спасибо
+=============================*/
+
+.dd-back{
+	width: 210px;
+	margin: 30px auto;
+	a{
+		color: #00535e;
+		font-family: "RobotoRegular";
+		font-size: 20px;
+	}
+}
+
+body, html{
+	height:100%;
+}
+
+.n-header{
+	display:table-row;
+	height: 1px;
+}
+.n-content{
+	display:table-row;
+
+}
+.n-footer{
+	display:table-row;
+	height: 1px;
+
+}
+.n-wrapper{
+	width: 100%;
+	height: 100%;
+	display:table;
+}
+.n-content-inner{
+	display:table-cell;
+	padding:15px;
+}
+.vertical-align{
+	vertical-align:middle;
+}
+.dd-spasibo-wrap{
+	margin: 0 auto;
+	max-width: 600px;
+	border:1px solid #D1D1D1;
+	border-radius: 25px;
+	padding: 20px;
+	text-align: center;
+	span{
+		color:red;
+		font-family: "RobotoBold";
+		font-size: 30px;
+		span{
+			font-size: 20px;
+			font-family: "RobotoRegular";
+			color:#00535E;
+		}
+	}
+}
+
+.dd1{
+	width: 100%;
+	height: 100px;
+}
+.dd2{
+	width: 100%;
+	height: 200px;
+}
 
 /*Главное меню для декстопа
 =============================*/
@@ -430,6 +499,64 @@
 	margin-bottom: -52px;
 }
 
+/* Поп ап
+================================*/
+
+.dd-popup-wrap{
+	background: #fff;
+	max-width:468px;
+	border-radius: 20px;
+	box-shadow: 0 0 57px rgba(0, 0, 2, 0.75);
+	// padding: 39px 75px;
+	padding: 40px 15px 28px 0px;
+	text-align:center;
+	position:relative;
+	.dd-chas-img{
+		display: none;
+	}
+	.dd-form-title{
+		font-family: "RobotoBold";
+		color: #04545e;
+		font-size: 24px;
+		text-transform:uppercase;
+	}
+	.dd-form-slogan{
+		font-family: "RobotoRegular";
+		color: #088393;
+		font-size: 14px;
+		margin: 24px 0px;
+	}
+	.dd-form-price{
+		padding-bottom: 24px;
+		span{
+			display: inline-block;
+			font-family: "RobotoRegular";
+			color: #848484;
+			font-size: 14px;
+			text-decoration: line-through;
+			
+			span{
+				display: inline-block;
+				font-family: "RobotoBold";
+				color: black;
+				font-weight: 700;
+				font-size: 18px;
+				text-decoration: unset;
+				padding-left: 16px;
+			}
+		}
+	}
+	.dd-min-txt{
+		color: #333;
+		font-size: 14px;
+		font-family: "RobotoRegular";
+		padding-bottom: 14px;
+	}
+	.text-transform{
+		text-transform: unset;
+	}
+}
+
 @media only screen and (min-width : 320px) {
 
 }
@@ -447,6 +574,17 @@
 }
 
 @media only screen and (min-width : 768px) {
+
+	.dd-popup-wrap{
+		// padding: 39px 75px;
+		padding: 40px 85px 28px 75px;
+		.dd-chas-img{
+			display: block;
+			position:absolute;
+			left: -143px;
+			bottom:-153px;
+		}
+	}
 
 }
 
@@ -489,7 +627,7 @@
 		z-index: 999;
 	}
 	.pt-act{
-		padding-bottom: 254px;
+		padding-bottom: 165px;
 	}
 }
 

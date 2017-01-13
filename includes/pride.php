@@ -10,7 +10,7 @@
 			</div>			
 
 			<br>
-			<hr width="35%" style="color: #acacac; height: 2px;">
+			<hr width="35%" size="10"  style="color:#acacac; background-color: #acacac; height: 1px;">
 
 			<center>
 				<ul class="dc-list-view">

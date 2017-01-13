@@ -24,16 +24,36 @@
 	<script type="text/javascript" src="js/jquery.jscrollpane.min.js"></script>
 
 	<script>
-    	new WOW().init();
-    </script>
+		new WOW().init();
+	</script>
 
 	<script src="js/responsiveTabs.js"></script>
 	<script src="js/jquery.maskedinput.min.js"></script>
 	<script src="js/common.js"></script>
 
-	
+	<div class="n-wrapper">
+		<div class="n-header">
+			<div class="dd1"></div>
+		</div>
+
+		<div class="n-content">
+			<div class="n-content-inner vertical-align">
+				<div class="dd-spasibo-wrap">
+					<span>ПОЗДРАВЛЯЕМ! ВАШ ЗАКАЗ ПРИНЯТ<br><span>В ближайшее время с вами свяжется оператор для подтверждения заказа. Пожалуйста, включите ваш контактный телефон.</span></span>
+						
+					</div>
+						<div class="dd-back"><a href="index.php">Вернуться на главную</a></div>
+				</div>
+
+			</div>
+
+			<div class="n-footer">
+				<div class="dd2"></div>
+			</div>
+
+		</div>
 
 
-</body>
-</html>
+	</body>
+	</html>
 

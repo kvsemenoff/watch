@@ -48,7 +48,7 @@
 						<div class="characteristics__right characteristics__right_view">Кожа</div>
 					</div>
 				</div>
-				<a href="" class="df-clock__link df-clock__link_view">Заказать</a>
+				<a href="#log-in" name="modal" class="df-clock__link df-clock__link_view">Заказать</a>
 			</div>
 			<div class="clear"></div>	
 		</div>
@@ -98,7 +98,7 @@
 						<div class="characteristics__right characteristics__right_view">Кожа</div>
 					</div>
 				</div>
-				<a href="" class="df-clock__link df-clock__link_view">Заказать</a>
+				<a href="#log-in" name="modal" class="df-clock__link df-clock__link_view">Заказать</a>
 			</div>
 			<div class="clear"></div>	
 		</div>					

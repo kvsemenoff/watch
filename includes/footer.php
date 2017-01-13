@@ -9,7 +9,7 @@
 			</div>		
 			<div class="col-md-6">
 				<div class="footer__right footer__right_position">
-					<a href="#">Политика конфиденциальности</a>
+					<a href="/politics.html">Политика конфиденциальности</a>
 				</div>
 			</div>
 		</div>
@@ -20,7 +20,7 @@
 <div id="log-in" class="window">
 	<div class="dd-popup-wrap">	  
 		<div class="dd-chas-img">
-			<img src="img/ch1.png" alt="">
+			<img src="img/ch1.png" alt="" id="popup-img">
 		</div>    
 		<form class="form4" method="post" action="#">
 		<div class="dd-close"></div>
